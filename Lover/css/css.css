@@ -1,1 +1,43 @@
- 
+ *{
+		margin:0;
+		padding: 0;
+	}
+	/*
+	 * 图片框 
+	 */
+	#outer{
+	width: 250px;
+	height: 420px;
+	background-color: greenyellow;
+	margin:0 auto ;
+	margin-top: 10px;
+	position: relative;
+	/*裁剪溢出的内容*/
+	overflow:hidden;
+	}	
+	
+	/*
+	 * 所有图片
+	 */
+	.imgs{
+	width: 250px;
+	height: 400px;
+	float: left;
+
+	margin:10px auto ;
+	margin-top: 10px;
+	}	
+	
+	/*
+	 * 所有图片的整体
+	 */
+	#imglist{
+	list-style: none;   /*去除项目点。*/
+	width: 2250px;
+	height: 400px;
+	position: absolute;
+	/*设置偏移量*/
+	left:0;
+	}
+	
+
